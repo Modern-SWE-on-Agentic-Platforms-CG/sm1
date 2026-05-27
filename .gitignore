@@ -48,3 +48,5 @@ Thumbs.db
 
 # Alembic
 backend/migrations/__pycache__/
+.playwright-mcp/console-2026-05-27T07-06-52-895Z.log
+.playwright-mcp/console-2026-05-27T07-11-36-609Z.log
