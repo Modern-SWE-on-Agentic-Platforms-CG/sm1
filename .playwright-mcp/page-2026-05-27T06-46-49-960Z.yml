@@ -1,0 +1,70 @@
+- generic [ref=e3]:
+  - heading "Refer a Candidate" [level=5] [ref=e102]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e38]: Candidate Name
+      - generic [ref=e8]:
+        - textbox "Candidate Name" [ref=e103]: Referral MCP Candidate
+        - group:
+          - generic: Candidate Name
+    - generic [ref=e10]:
+      - generic [ref=e39]: Email
+      - generic [ref=e11]:
+        - textbox "Email" [ref=e104]: referral.mcp.uat@example.com
+        - group:
+          - generic: Email
+    - generic [ref=e13]:
+      - generic [ref=e40]: Phone
+      - generic [ref=e14]:
+        - textbox "Phone" [ref=e105]: "9988776655"
+        - group:
+          - generic: Phone
+    - generic [ref=e16]:
+      - generic [ref=e49]: Technology
+      - generic [ref=e17]:
+        - combobox "Python" [ref=e106] [cursor=pointer]
+        - textbox: "2"
+        - img
+        - group:
+          - generic: Technology
+    - generic [ref=e19]:
+      - generic [ref=e83]: Notice Period
+      - generic [ref=e20]:
+        - combobox "Immediate" [active] [ref=e107] [cursor=pointer]
+        - textbox: "1"
+        - img
+        - group:
+          - generic: Notice Period
+    - generic [ref=e22]:
+      - generic: Location
+      - generic [ref=e23]:
+        - combobox [ref=e24] [cursor=pointer]
+        - textbox
+        - img
+        - group:
+          - generic: Location
+    - generic [ref=e25]:
+      - generic [ref=e41]: Experience (years)
+      - generic [ref=e26]:
+        - spinbutton "Experience (years)" [ref=e108]: "5"
+        - group:
+          - generic: Experience (years)
+    - generic [ref=e28]:
+      - generic [ref=e42]: Current Company
+      - generic [ref=e29]:
+        - textbox "Current Company" [ref=e109]: Demo Corp
+        - group:
+          - generic: Current Company
+    - generic [ref=e31]:
+      - generic [ref=e43]: Current CTC (LPA)
+      - generic [ref=e32]:
+        - spinbutton "Current CTC (LPA)" [ref=e110]: "12"
+        - group:
+          - generic: Current CTC (LPA)
+    - generic [ref=e34]:
+      - generic [ref=e44]: Expected CTC (LPA)
+      - generic [ref=e35]:
+        - spinbutton "Expected CTC (LPA)" [ref=e111]: "16"
+        - group:
+          - generic: Expected CTC (LPA)
+    - button "Submit Referral" [ref=e112] [cursor=pointer]: Submit Referral

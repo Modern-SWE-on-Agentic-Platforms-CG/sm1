@@ -1,0 +1,4 @@
+- generic [ref=e18]:
+  - heading "Welcome, Priya Recruiter" [level=4] [ref=e19]
+  - paragraph [ref=e20]: Select a role to continue
+  - button "Recruiter" [ref=e22] [cursor=pointer]: Recruiter

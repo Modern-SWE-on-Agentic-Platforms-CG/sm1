@@ -1,0 +1,17 @@
+- generic [ref=e64]:
+  - heading "Smart Recruit" [level=5] [ref=e65]
+  - paragraph [ref=e66]: Sign in to continue
+  - generic [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]: Email
+      - generic [ref=e70]:
+        - textbox "Email" [ref=e71]: admin@smartrecruit.dev
+        - group:
+          - generic: Email
+    - generic [ref=e72]:
+      - generic [ref=e73]: Password
+      - generic [ref=e74]:
+        - textbox "Password" [ref=e75]: Admin@123
+        - group:
+          - generic: Password
+    - button "Sign In" [ref=e76] [cursor=pointer]: Sign In

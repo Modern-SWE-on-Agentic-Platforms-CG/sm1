@@ -21,10 +21,13 @@ description: "Task list template for feature implementation"
 
 ## Path Conventions
 
-- **Single project**: `src/`, `tests/` at repository root
-- **Web app**: `backend/src/`, `frontend/src/`
-- **Mobile**: `api/src/`, `ios/src/` or `android/src/`
-- Paths shown below assume single project - adjust based on plan.md structure
+This project ALWAYS uses the three-tier web app layout (per constitution):
+
+- **Backend (Python/FastAPI)**: `backend/app/api/v1/`, `backend/app/models/`,
+  `backend/app/schemas/`, `backend/app/services/`, `backend/migrations/`, `backend/tests/`
+- **Frontend (React)**: `frontend/src/pages/`, `frontend/src/components/`,
+  `frontend/src/services/`, `frontend/src/hooks/`, `frontend/tests/`
+- **Database**: Alembic migration files in `backend/migrations/versions/`
 
 <!--
   ============================================================================

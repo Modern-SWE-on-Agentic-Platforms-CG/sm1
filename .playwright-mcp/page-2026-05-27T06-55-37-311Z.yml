@@ -1,0 +1,38 @@
+- generic [ref=e6]:
+  - heading "Standard Interview Feedback" [level=5] [ref=e7]
+  - 'heading "Technology: General" [level=6] [ref=e8]'
+  - alert [ref=e66]:
+    - img [ref=e68]
+    - generic [ref=e70]: Feedback submitted successfully!
+    - button "Download PDF" [ref=e72] [cursor=pointer]: Download PDF
+  - generic [ref=e9]:
+    - generic [ref=e11]:
+      - heading "Technical" [level=6] [ref=e12]
+      - separator [ref=e13]
+      - generic [ref=e14]:
+        - paragraph [ref=e15]: Technical Knowledge (max 5)
+        - slider [ref=e26]: "0"
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: Problem Solving (max 5)
+        - slider [ref=e39]: "0"
+    - generic [ref=e41]:
+      - heading "Behavioral" [level=6] [ref=e42]
+      - separator [ref=e43]
+      - generic [ref=e44]:
+        - paragraph [ref=e45]: Communication (max 5)
+        - slider [ref=e56]: "0"
+    - generic [ref=e57]:
+      - generic [ref=e58]: Overall Recommendation
+      - generic [ref=e59]:
+        - combobox "Overall Recommendation Select" [ref=e60] [cursor=pointer]: Select
+        - textbox: Select
+        - img
+        - group:
+          - generic: Overall Recommendation
+    - generic [ref=e61]:
+      - generic [ref=e65]: Overall Remarks
+      - generic [ref=e62]:
+        - textbox "Overall Remarks" [ref=e63]: Strong technical and communication performance during UAT validation.
+        - group:
+          - generic: Overall Remarks
+    - button "Submit Feedback" [disabled]

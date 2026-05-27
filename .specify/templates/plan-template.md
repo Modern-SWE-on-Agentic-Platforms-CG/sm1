@@ -18,29 +18,38 @@
   the iteration process.
 -->
 
-**Language/Version**: [e.g., Python 3.11, Swift 5.9, Rust 1.75 or NEEDS CLARIFICATION]
+**Language/Version**: Python 3.11+ (backend) · React 18+ / TypeScript 5+ (frontend)
 
-**Primary Dependencies**: [e.g., FastAPI, UIKit, LLVM or NEEDS CLARIFICATION]
+**Primary Dependencies**: FastAPI + SQLAlchemy 2.x + Alembic (backend) · Vite + React Router (frontend)
 
-**Storage**: [if applicable, e.g., PostgreSQL, CoreData, files or N/A]
+**Storage**: PostgreSQL 14+ — database `smarthiremain001` (mandatory per constitution)
 
-**Testing**: [e.g., pytest, XCTest, cargo test or NEEDS CLARIFICATION]
+**Testing**: pytest + httpx (backend) · Vitest / React Testing Library (frontend)
 
-**Target Platform**: [e.g., Linux server, iOS 15+, WASM or NEEDS CLARIFICATION]
+**Target Platform**: Local server (Python ASGI) + browser (React SPA)
 
-**Project Type**: [e.g., library/cli/web-service/mobile-app/compiler/desktop-app or NEEDS CLARIFICATION]
+**Project Type**: Three-tier web application (React frontend / Python REST API / PostgreSQL)
 
-**Performance Goals**: [domain-specific, e.g., 1000 req/s, 10k lines/sec, 60 fps or NEEDS CLARIFICATION]
+**Performance Goals**: API p95 < 500 ms for standard CRUD operations
 
-**Constraints**: [domain-specific, e.g., <200ms p95, <100MB memory, offline-capable or NEEDS CLARIFICATION]
+**Constraints**: All three tiers MUST align with `.specify/memory/constitution.md` Principles I–V.
+No legacy stack (Angular / Spring Boot / Node.js / Express) permitted.
 
-**Scale/Scope**: [domain-specific, e.g., 10k users, 1M LOC, 50 screens or NEEDS CLARIFICATION]
+**Scale/Scope**: 11 user personas · 23 feature modules (see `BRD-AND-COMPLETE-DOCS.md`)
 
 ## Constitution Check
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Verify all of the following before proceeding:
+
+- [ ] Frontend implementation uses React (not Angular, Vue, or other frameworks)
+- [ ] Backend implementation uses Python (not Node.js, Java, or other runtimes)
+- [ ] Database target is PostgreSQL `smarthiremain001` (no other DB)
+- [ ] API contracts (Pydantic schemas) defined before frontend development starts
+- [ ] Alembic migration created for all new/changed DB entities
+- [ ] No hard-coded credentials in any source file
+- [ ] OWASP Top 10 self-review noted for security-sensitive endpoints
 
 ## Project Structure
 

@@ -6,7 +6,18 @@
 
 **Status**: Draft
 
+**Stack**: React (frontend) · Python/FastAPI (backend) · PostgreSQL `smarthiremain001` (database)
+
 **Input**: User description: "$ARGUMENTS"
+
+## Constitution Compliance Check
+
+> All items MUST be confirmed before the spec is considered complete.
+
+- [ ] This feature is implementable with React + Python + PostgreSQL only
+- [ ] No Angular, Node.js, Spring Boot, or non-approved technology required
+- [ ] API endpoint contracts will be defined in `contracts/` before frontend work begins
+- [ ] Any new data entities will have Alembic migrations before ORM models
 
 ## User Scenarios & Testing *(mandatory)*
 

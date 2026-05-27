@@ -1,0 +1,64 @@
+[     433ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8016/node_modules/.vite/deps/chunk-GKJBSOWT.js?v=a05ebb77:21550
+[     545ms] Error: Could not resolve "date-fns/addDays" imported by "@mui/x-date-pickers". Is it installed?
+    at optional-peer-dep:__vite-optional-peer-dep:date-fns/addDays:@mui/x-date-pickers (http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_AdapterDateFns.js?v=a05ebb77:13:11)
+    at __require (http://localhost:8016/node_modules/.vite/deps/chunk-V4OQ3NZ2.js?v=a05ebb77:11:50)
+    at http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_AdapterDateFns.js?v=a05ebb77:319:30
+[    8007ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8016/node_modules/.vite/deps/chunk-GKJBSOWT.js?v=a05ebb77:21550
+[    8079ms] Error: Could not resolve "date-fns/addDays" imported by "@mui/x-date-pickers". Is it installed?
+    at optional-peer-dep:__vite-optional-peer-dep:date-fns/addDays:@mui/x-date-pickers (http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_AdapterDateFns.js?v=a05ebb77:13:11)
+    at __require (http://localhost:8016/node_modules/.vite/deps/chunk-V4OQ3NZ2.js?v=a05ebb77:11:50)
+    at http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_AdapterDateFns.js?v=a05ebb77:319:30
+[   19431ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8016/@vite/client:559
+[   24728ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:8016/src/services/authService.ts:0
+[   24738ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:8016/@vite/client:559
+[   24740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost:8016/src/components/Navbar.tsx:0
+[   27063ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/components/SlotCalendar.tsx:0
+[   27063ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/components/FileUpload.tsx:0
+[   27064ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/slotService.ts:0
+[   27064ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/bookingService.ts:0
+[   27094ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/candidateService.ts:0
+[   27095ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/employeeService.ts:0
+[   29393ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_x-data-grid.js?v=1c1d6aab:0
+[   29409ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/feedbackService.ts:0
+[   29410ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/workflowService.ts:0
+[   29410ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/joiningBonusService.ts:0
+[   29433ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_icons-material_Delete.js?v=3ffc1adb:0
+[   29433ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_icons-material_Add.js?v=d3222c96:0
+[   31728ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/adminService.ts:0
+[   31749ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_icons-material_Check.js?v=703c86a0:0
+[   31751ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_icons-material_Close.js?v=e8dfe2af:0
+[   31751ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_DatePicker.js?v=2abee341:0
+[   31752ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_LocalizationProvider.js?v=443e7dd1:0
+[   31763ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_AdapterDateFns.js?v=31c6e23d:0
+[   34045ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/api.ts:0
+[   34065ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/recharts.js?v=ad8ea451:0
+[   34097ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/analyticsService.ts:0
+[   34098ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/l2Service.ts:0
+[   34098ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_icons-material_UploadFile.js?v=b0efc4dc:0
+[   34098ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/weekendDriveService.ts:0
+[   36353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/referralService.ts:0
+[   36400ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/src/services/supplyService.ts:0
+[   36419ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/@mui_material.js?v=970cee44:0
+[   36420ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/react-dom_client.js?v=fdd775f0:0
+[   36420ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/react.js?v=1e1aa64e:0
+[   36433ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/react-router-dom.js?v=90dedcd5:0
+[   38677ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/react-hook-form.js?v=19a4ac69:0
+[   38722ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=1e1aa64e:0
+[   38739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/vite.svg:0
+[   38741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   42076ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   45431ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   48752ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   52088ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   55428ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   58788ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   62155ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   65517ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   68863ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   72205ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   75545ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[   78882ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8016/:0
+[  186608ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8016/node_modules/.vite/deps/chunk-GKJBSOWT.js?v=289470c1:21550
+[  187135ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:8016/node_modules/.vite/deps/react-router-dom.js?v=3a07a8d0:4435
+[  187136ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:8016/node_modules/.vite/deps/react-router-dom.js?v=3a07a8d0:4435
+[  187347ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8016/login:0

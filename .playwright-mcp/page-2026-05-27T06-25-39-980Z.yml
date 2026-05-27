@@ -1,0 +1,22 @@
+- generic [ref=e23]:
+  - banner [ref=e24]:
+    - generic [ref=e25]:
+      - heading "Smart Recruit Platform" [level=6] [ref=e26]
+      - button "Switch Role" [ref=e27] [cursor=pointer]: Switch Role
+      - generic [ref=e28]:
+        - button "Todo" [ref=e29] [cursor=pointer]: Todo
+        - button "Candidates" [ref=e30] [cursor=pointer]: Candidates
+        - button "Upload" [ref=e31] [cursor=pointer]: Upload
+        - button "Booking" [ref=e32] [cursor=pointer]: Booking
+        - button "Reports" [ref=e33] [cursor=pointer]: Reports
+      - generic [ref=e35]: Recruiter
+      - generic [ref=e36]:
+        - paragraph [ref=e37]: Priya Recruiter
+        - button "Logout" [ref=e38] [cursor=pointer]: Logout
+  - generic [ref=e39]:
+    - heading "To-Do List" [level=5] [ref=e40]
+    - tablist [ref=e43]:
+      - tab "Today's Interviews" [selected] [ref=e44] [cursor=pointer]: Today's Interviews
+      - tab "Pending Feedback" [ref=e45] [cursor=pointer]: Pending Feedback
+      - tab "Weekly View" [ref=e46] [cursor=pointer]: Weekly View
+    - paragraph [ref=e51]: No interviews today

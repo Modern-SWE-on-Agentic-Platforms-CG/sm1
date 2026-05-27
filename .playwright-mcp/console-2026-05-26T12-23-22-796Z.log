@@ -1,0 +1,5 @@
+[     776ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:8016/node_modules/.vite/deps/chunk-GKJBSOWT.js?v=a05ebb77:21550
+[     932ms] Error: Could not resolve "date-fns/addDays" imported by "@mui/x-date-pickers". Is it installed?
+    at optional-peer-dep:__vite-optional-peer-dep:date-fns/addDays:@mui/x-date-pickers (http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_AdapterDateFns.js?v=a05ebb77:13:11)
+    at __require (http://localhost:8016/node_modules/.vite/deps/chunk-V4OQ3NZ2.js?v=a05ebb77:11:50)
+    at http://localhost:8016/node_modules/.vite/deps/@mui_x-date-pickers_AdapterDateFns.js?v=a05ebb77:319:30
