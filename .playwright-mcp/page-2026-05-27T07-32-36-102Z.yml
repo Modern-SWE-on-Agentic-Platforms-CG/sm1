@@ -1,0 +1,73 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Smart Recruit Platform" [level=6] [ref=e6]
+      - button "Switch Role" [ref=e7] [cursor=pointer]: Switch Role
+      - generic [ref=e8]:
+        - button "Register Panel" [ref=e9] [cursor=pointer]: Register Panel
+        - button "Administration" [ref=e10] [cursor=pointer]: Administration
+        - button "Master Data" [ref=e11] [cursor=pointer]: Master Data
+        - button "Candidates" [ref=e12] [cursor=pointer]: Candidates
+        - button "Upload" [ref=e13] [cursor=pointer]: Upload
+        - button "Booking" [ref=e14] [cursor=pointer]: Booking
+        - button "Reports" [ref=e15] [cursor=pointer]: Reports
+      - generic [ref=e17]: Admin
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: System Admin
+        - button "Logout" [ref=e20] [cursor=pointer]: Logout
+  - generic [ref=e21]:
+    - heading "Panel Registration" [level=5] [ref=e22]
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - generic: Full Name
+        - generic [ref=e28]:
+          - textbox "Full Name" [ref=e29]
+          - group:
+            - generic: Full Name
+      - generic [ref=e31]:
+        - generic [ref=e32]: Email
+        - generic [ref=e33]:
+          - textbox "Email" [ref=e34]: admin@smartrecruit.dev
+          - group:
+            - generic: Email
+      - generic [ref=e36]:
+        - generic [ref=e37]: Password
+        - generic [ref=e38]:
+          - textbox "Password" [ref=e39]: Admin@123
+          - group:
+            - generic: Password
+      - generic [ref=e41]:
+        - generic: BU
+        - generic [ref=e42]:
+          - textbox "BU" [ref=e43]
+          - group:
+            - generic: BU
+      - generic [ref=e45]:
+        - generic: Grade
+        - generic [ref=e46]:
+          - textbox "Grade" [ref=e47]
+          - group:
+            - generic: Grade
+      - generic [ref=e49]:
+        - generic: Location
+        - generic [ref=e50]:
+          - textbox "Location" [ref=e51]
+          - group:
+            - generic: Location
+      - generic [ref=e53]:
+        - generic: Roles
+        - generic [ref=e54]:
+          - combobox [ref=e55] [cursor=pointer]
+          - textbox
+          - img
+          - group:
+            - generic: Roles
+      - generic [ref=e57]:
+        - generic: Technologies
+        - generic [ref=e58]:
+          - combobox [ref=e59] [cursor=pointer]
+          - textbox
+          - img
+          - group:
+            - generic: Technologies
+      - button "Register Employee" [ref=e61] [cursor=pointer]: Register Employee

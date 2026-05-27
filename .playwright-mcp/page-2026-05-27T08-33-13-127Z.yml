@@ -1,0 +1,50 @@
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - heading [level=5] [ref=e33]: Offer Approval Workflow
+    - table [ref=e8]:
+      - rowgroup [ref=e9]:
+        - row [ref=e34]:
+          - columnheader [ref=e35]: Candidate
+          - columnheader [ref=e36]: Current CTC
+          - columnheader [ref=e37]: Offer CTC
+          - columnheader [ref=e38]: Level
+          - columnheader [ref=e39]: ARC
+          - columnheader [ref=e40]: Actions
+      - rowgroup [ref=e17]:
+        - row [ref=e41]:
+          - cell [ref=e42]:
+            - button [ref=e43] [cursor=pointer]: Demo Workflow Candidate B
+          - cell [ref=e44]: "11"
+          - cell [ref=e45]: "14"
+          - cell [ref=e46]: Admin
+          - cell [ref=e47]:
+            - generic [ref=e26]: ARC Deviation
+          - cell [ref=e48]:
+            - button [ref=e49] [cursor=pointer]: Act
+    - generic [ref=e30]:
+      - paragraph [ref=e31]: 1–1 of 1
+      - generic [ref=e32]:
+        - button [disabled]:
+          - img
+        - button [disabled]:
+          - img
+  - dialog "Workflow Action" [ref=e52]:
+    - heading "Workflow Action" [level=2] [ref=e53]
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: Action
+        - generic [ref=e57]:
+          - combobox "Action Approve" [ref=e58] [cursor=pointer]: Approve
+          - textbox: Approved
+          - img
+          - group:
+            - generic: Action
+      - generic [ref=e59]:
+        - generic: Comment (optional)
+        - generic [ref=e60]:
+          - textbox "Comment (optional)" [ref=e61]
+          - group:
+            - generic: Comment (optional)
+    - generic [ref=e62]:
+      - button "Cancel" [ref=e63] [cursor=pointer]: Cancel
+      - button "Submit" [ref=e64] [cursor=pointer]: Submit

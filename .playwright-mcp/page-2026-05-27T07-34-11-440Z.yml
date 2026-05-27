@@ -1,0 +1,76 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Smart Recruit Platform" [level=6] [ref=e177]
+      - button "Switch Role" [ref=e178] [cursor=pointer]: Switch Role
+      - generic [ref=e8]:
+        - button "Register Panel" [ref=e179] [cursor=pointer]: Register Panel
+        - button "Administration" [ref=e180] [cursor=pointer]: Administration
+        - button "Master Data" [ref=e181] [cursor=pointer]: Master Data
+        - button "Candidates" [ref=e182] [cursor=pointer]: Candidates
+        - button "Upload" [ref=e183] [cursor=pointer]: Upload
+        - button "Booking" [ref=e184] [cursor=pointer]: Booking
+        - button "Reports" [ref=e185] [cursor=pointer]: Reports
+      - generic [ref=e17]: Admin
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: System Admin
+        - button "Logout" [ref=e186] [cursor=pointer]: Logout
+  - generic [ref=e21]:
+    - heading "Panel Registration" [level=5] [ref=e187]
+    - alert [ref=e216]:
+      - img [ref=e218]
+      - generic [ref=e220]: Employee registered successfully
+    - generic [ref=e25]:
+      - generic [ref=e27]:
+        - generic [ref=e73]: Full Name
+        - generic [ref=e28]:
+          - textbox "Full Name" [ref=e188]
+          - group:
+            - generic: Full Name
+      - generic [ref=e31]:
+        - generic [ref=e32]: Email
+        - generic [ref=e33]:
+          - textbox "Email" [ref=e189]
+          - group:
+            - generic: Email
+      - generic [ref=e36]:
+        - generic [ref=e37]: Password
+        - generic [ref=e38]:
+          - textbox "Password" [ref=e190]
+          - group:
+            - generic: Password
+      - generic [ref=e41]:
+        - generic [ref=e77]: BU
+        - generic [ref=e42]:
+          - textbox "BU" [ref=e191]
+          - group:
+            - generic: BU
+      - generic [ref=e45]:
+        - generic [ref=e79]: Grade
+        - generic [ref=e46]:
+          - textbox "Grade" [ref=e192]
+          - group:
+            - generic: Grade
+      - generic [ref=e49]:
+        - generic [ref=e81]: Location
+        - generic [ref=e50]:
+          - textbox "Location" [ref=e193]
+          - group:
+            - generic: Location
+      - generic [ref=e53]:
+        - generic: Roles
+        - generic [ref=e54]:
+          - combobox [ref=e55] [cursor=pointer]
+          - textbox
+          - img
+          - group:
+            - generic: Roles
+      - generic [ref=e57]:
+        - generic: Technologies
+        - generic [ref=e58]:
+          - combobox [ref=e59] [cursor=pointer]
+          - textbox
+          - img
+          - group:
+            - generic: Technologies
+      - button "Register Employee" [active] [ref=e197] [cursor=pointer]: Register Employee

@@ -1,0 +1,63 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - heading [level=6] [ref=e53]: Smart Recruit Platform
+        - button [ref=e54] [cursor=pointer]: Switch Role
+        - generic [ref=e8]:
+          - button [ref=e55] [cursor=pointer]: Todo
+          - button [ref=e56] [cursor=pointer]: Candidates
+          - button [ref=e57] [cursor=pointer]: Upload
+          - button [ref=e58] [cursor=pointer]: Booking
+          - button [ref=e59] [cursor=pointer]: Reports
+        - generic [ref=e15]: Recruiter
+        - generic [ref=e16]:
+          - paragraph [ref=e17]: Priya Recruiter
+          - button [ref=e60] [cursor=pointer]: Logout
+    - generic [ref=e19]:
+      - heading [level=5] [ref=e61]: Book Interview Slot
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic: Skill ID
+          - generic [ref=e24]:
+            - textbox [ref=e62]
+            - group:
+              - generic: Skill ID
+        - generic [ref=e26]:
+          - generic [ref=e27]: Date
+          - generic [ref=e28]:
+            - textbox [ref=e63]: 2026-05-28
+            - group:
+              - generic: Date
+        - button [ref=e64] [cursor=pointer]: Search
+      - generic [ref=e31]:
+        - heading [level=6] [ref=e65]: Available Slots
+        - table [ref=e33]:
+          - rowgroup [ref=e34]:
+            - row [ref=e66]:
+              - columnheader [ref=e67]: ID
+              - columnheader [ref=e68]: Date
+              - columnheader [ref=e69]: From
+              - columnheader [ref=e70]: To
+              - columnheader [ref=e71]: Select
+          - rowgroup [ref=e41]:
+            - row [ref=e72] [cursor=pointer]:
+              - cell [ref=e73]: "5"
+              - cell [ref=e74]: 2026-05-28
+              - cell [ref=e75]: 12:00:00 PM
+              - cell [ref=e76]: 1:00:00 PM
+              - cell [ref=e47]: ✓
+      - generic [ref=e48]:
+        - heading [level=6] [ref=e77]: Book Slot
+        - generic [ref=e50]:
+          - generic [ref=e78]: Candidate
+          - generic [ref=e51]:
+            - combobox [expanded] [ref=e52] [cursor=pointer]
+            - textbox
+            - img
+            - group:
+              - generic: Candidate
+        - button [disabled]: Book
+  - listbox [ref=e81]:
+    - option "Demo Candidate (demo.candidate1@example.com)" [active] [ref=e82] [cursor=pointer]: Demo Candidate (demo.candidate1@example.com)
+    - option "Demo Candidate Two (demo.candidate2@example.com)" [ref=e83] [cursor=pointer]: Demo Candidate Two (demo.candidate2@example.com)

@@ -1,0 +1,62 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Smart Recruit Platform" [level=6] [ref=e84]
+      - button "Switch Role" [ref=e85] [cursor=pointer]: Switch Role
+      - generic [ref=e8]:
+        - button "Todo" [ref=e86] [cursor=pointer]: Todo
+        - button "Candidates" [ref=e87] [cursor=pointer]: Candidates
+        - button "Upload" [ref=e88] [cursor=pointer]: Upload
+        - button "Booking" [ref=e89] [cursor=pointer]: Booking
+        - button "Reports" [ref=e90] [cursor=pointer]: Reports
+      - generic [ref=e15]: Recruiter
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Priya Recruiter
+        - button "Logout" [ref=e91] [cursor=pointer]: Logout
+  - generic [ref=e19]:
+    - heading "Book Interview Slot" [level=5] [ref=e92]
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic: Skill ID
+        - generic [ref=e24]:
+          - textbox "Skill ID" [ref=e93]
+          - group:
+            - generic: Skill ID
+      - generic [ref=e26]:
+        - generic [ref=e27]: Date
+        - generic [ref=e28]:
+          - textbox "Date" [ref=e94]: 2026-05-28
+          - group:
+            - generic: Date
+      - button "Search" [ref=e95] [cursor=pointer]: Search
+    - generic [ref=e31]:
+      - heading "Available Slots" [level=6] [ref=e96]
+      - table [ref=e33]:
+        - rowgroup [ref=e34]:
+          - row "ID Date From To Select" [ref=e97]:
+            - columnheader "ID" [ref=e98]
+            - columnheader "Date" [ref=e99]
+            - columnheader "From" [ref=e100]
+            - columnheader "To" [ref=e101]
+            - columnheader "Select" [ref=e102]
+        - rowgroup [ref=e41]:
+          - row "5 2026-05-28 12:00:00 PM 1:00:00 PM ✓" [ref=e103] [cursor=pointer]:
+            - cell "5" [ref=e104]
+            - cell "2026-05-28" [ref=e105]
+            - cell "12:00:00 PM" [ref=e106]
+            - cell "1:00:00 PM" [ref=e107]
+            - cell "✓" [ref=e108]
+    - generic [ref=e48]:
+      - heading "Book Slot" [level=6] [ref=e109]
+      - generic [ref=e50]:
+        - generic [ref=e78]: Candidate
+        - generic [ref=e51]:
+          - combobox [ref=e52] [cursor=pointer]: Demo Candidate (demo.candidate1@example.com)
+          - textbox: "2"
+          - img
+          - group:
+            - generic: Candidate
+      - button "Book" [active] [ref=e110] [cursor=pointer]: Book
+      - alert [ref=e111]:
+        - img [ref=e113]
+        - generic [ref=e115]: "Booked! Meeting link: https://meet.smartrecruit.local/4b1c7a24-9679-4cda-8610-63e0c1045a4f"

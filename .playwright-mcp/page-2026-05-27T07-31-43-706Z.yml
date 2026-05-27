@@ -1,0 +1,4 @@
+- generic [ref=e18]:
+  - heading "Welcome, System Admin" [level=4] [ref=e19]
+  - paragraph [ref=e20]: Select a role to continue
+  - button "Admin" [ref=e22] [cursor=pointer]: Admin

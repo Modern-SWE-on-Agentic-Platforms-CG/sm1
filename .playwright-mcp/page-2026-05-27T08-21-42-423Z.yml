@@ -1,0 +1,86 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - heading [level=4] [ref=e88]: SmartHire Referral Portal
+      - paragraph [ref=e7]: Know someone great? Refer them to join our team. Fill in the form below.
+    - generic [ref=e11]:
+      - heading [level=5] [ref=e89]: Refer a Candidate
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e46]: Candidate Name
+          - generic [ref=e16]:
+            - textbox [ref=e90]: Referral Demo 82019
+            - group:
+              - generic: Candidate Name
+        - generic [ref=e18]:
+          - generic [ref=e47]: Email
+          - generic [ref=e19]:
+            - textbox [ref=e91]: ref.demo.82019@example.com
+            - group:
+              - generic: Email
+        - generic [ref=e21]:
+          - generic [ref=e48]: Phone
+          - generic [ref=e22]:
+            - textbox [ref=e92]: "9876543210"
+            - group:
+              - generic: Phone
+        - generic [ref=e24]:
+          - generic [ref=e58]: Technology
+          - generic [ref=e25]:
+            - combobox [ref=e93] [cursor=pointer]: Java
+            - textbox: "1"
+            - img
+            - group:
+              - generic: Technology
+        - generic [ref=e27]:
+          - generic [ref=e94]: Notice Period
+          - generic [ref=e28]:
+            - combobox [expanded] [ref=e29] [cursor=pointer]
+            - textbox
+            - img
+            - group:
+              - generic: Notice Period
+        - generic [ref=e30]:
+          - generic: Location
+          - generic [ref=e31]:
+            - combobox [ref=e32] [cursor=pointer]
+            - textbox
+            - img
+            - group:
+              - generic: Location
+        - generic [ref=e33]:
+          - generic [ref=e49]: Experience (years)
+          - generic [ref=e34]:
+            - spinbutton [ref=e95]: "5"
+            - group:
+              - generic: Experience (years)
+        - generic [ref=e36]:
+          - generic [ref=e50]: Current Company
+          - generic [ref=e37]:
+            - textbox [ref=e96]: Capgemini Partner Org
+            - group:
+              - generic: Current Company
+        - generic [ref=e39]:
+          - generic [ref=e51]: Current CTC (LPA)
+          - generic [ref=e40]:
+            - spinbutton [ref=e97]: "12"
+            - group:
+              - generic: Current CTC (LPA)
+        - generic [ref=e42]:
+          - generic [ref=e52]: Expected CTC (LPA)
+          - generic [ref=e43]:
+            - spinbutton [ref=e98]: "15"
+            - group:
+              - generic: Expected CTC (LPA)
+        - button [ref=e99] [cursor=pointer]: Submit Referral
+  - listbox [ref=e102]:
+    - option "Immediate" [active] [ref=e103] [cursor=pointer]: Immediate
+    - option "15 Days" [ref=e104] [cursor=pointer]: 15 Days
+    - option "30 Days" [ref=e105] [cursor=pointer]: 30 Days
+    - option "60 Days" [ref=e106] [cursor=pointer]: 60 Days
+    - option "90 Days" [ref=e107] [cursor=pointer]: 90 Days
+    - option "15 days" [ref=e108] [cursor=pointer]: 15 days
+    - option "30 days" [ref=e109] [cursor=pointer]: 30 days
+    - option "45 days" [ref=e110] [cursor=pointer]: 45 days
+    - option "60 days" [ref=e111] [cursor=pointer]: 60 days
+    - option "90 days" [ref=e112] [cursor=pointer]: 90 days

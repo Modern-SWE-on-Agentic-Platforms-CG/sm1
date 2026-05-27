@@ -1,0 +1,27 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Smart Recruit Platform" [level=6] [ref=e6]
+      - button "Switch Role" [ref=e7] [cursor=pointer]: Switch Role
+      - generic [ref=e8]:
+        - button "Todo" [ref=e9] [cursor=pointer]: Todo
+        - button "Candidates" [ref=e10] [cursor=pointer]: Candidates
+        - button "Upload" [ref=e11] [cursor=pointer]: Upload
+        - button "Booking" [ref=e12] [cursor=pointer]: Booking
+        - button "Reports" [ref=e13] [cursor=pointer]: Reports
+      - generic [ref=e15]: Recruiter
+      - generic [ref=e16]:
+        - paragraph [ref=e17]: Priya Recruiter
+        - button "Logout" [ref=e18] [cursor=pointer]: Logout
+  - generic [ref=e19]:
+    - heading "Upload Candidates" [level=5] [ref=e20]
+    - generic [ref=e21]:
+      - generic [ref=e22] [cursor=pointer]:
+        - img [ref=e23]
+        - paragraph [ref=e25]: demo-candidates.xlsx
+      - generic [ref=e26]:
+        - alert [ref=e27]:
+          - img [ref=e29]
+          - generic [ref=e31]: "Imported: 0 | Duplicates: 2 | Errors: 0"
+        - link "Download error file" [ref=e32] [cursor=pointer]:
+          - /url: /api/v1/files/exports/candidate_errors_20260527_080945.xlsx

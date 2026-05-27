@@ -1,0 +1,6 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "SmartHire Referral Portal" [level=4] [ref=e6]
+    - paragraph [ref=e7]: Know someone great? Refer them to join our team. Fill in the form below.
+  - progressbar [ref=e8]:
+    - img [ref=e9]

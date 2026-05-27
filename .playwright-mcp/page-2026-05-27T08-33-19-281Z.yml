@@ -1,0 +1,19 @@
+- generic [ref=e65]:
+  - heading "Offer Approval Workflow" [level=5] [ref=e66]
+  - table [ref=e67]:
+    - rowgroup [ref=e68]:
+      - row "Candidate Current CTC Offer CTC Level ARC Actions" [ref=e69]:
+        - columnheader "Candidate" [ref=e70]
+        - columnheader "Current CTC" [ref=e71]
+        - columnheader "Offer CTC" [ref=e72]
+        - columnheader "Level" [ref=e73]
+        - columnheader "ARC" [ref=e74]
+        - columnheader "Actions" [ref=e75]
+    - rowgroup
+  - generic [ref=e77]:
+    - paragraph [ref=e78]: 0–0 of 0
+    - generic [ref=e79]:
+      - button "Go to previous page" [disabled]:
+        - img
+      - button "Go to next page" [disabled]:
+        - img

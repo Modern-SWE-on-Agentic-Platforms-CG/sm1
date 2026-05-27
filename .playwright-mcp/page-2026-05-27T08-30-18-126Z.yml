@@ -1,0 +1,35 @@
+- generic [ref=e80]:
+  - heading "Joining Bonus Management" [level=5] [ref=e81]
+  - generic [ref=e82]:
+    - generic: Filter by Status
+    - generic [ref=e83]:
+      - combobox "Filter by Status" [ref=e84] [cursor=pointer]
+      - textbox
+      - img
+      - group:
+        - generic: Filter by Status
+  - table [ref=e85]:
+    - rowgroup [ref=e86]:
+      - row "Candidate Bonus Amount Status DL Email Updated By Action" [ref=e87]:
+        - columnheader "Candidate" [ref=e88]
+        - columnheader "Bonus Amount" [ref=e89]
+        - columnheader "Status" [ref=e90]
+        - columnheader "DL Email" [ref=e91]
+        - columnheader "Updated By" [ref=e92]
+        - columnheader "Action" [ref=e93]
+    - rowgroup [ref=e94]:
+      - row "Demo Workflow Candidate ₹200000 Approved approver@smartrecruit.dev admin@smartrecruit.dev Edit" [ref=e95]:
+        - cell "Demo Workflow Candidate" [ref=e96]
+        - cell "₹200000" [ref=e97]
+        - cell "Approved" [ref=e98]
+        - cell "approver@smartrecruit.dev" [ref=e99]
+        - cell "admin@smartrecruit.dev" [ref=e100]
+        - cell "Edit" [ref=e101]:
+          - button "Edit" [ref=e102] [cursor=pointer]: Edit
+  - generic [ref=e104]:
+    - paragraph [ref=e105]: 1–1 of 1
+    - generic [ref=e106]:
+      - button "Go to previous page" [disabled]:
+        - img
+      - button "Go to next page" [disabled]:
+        - img

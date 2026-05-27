@@ -1,0 +1,74 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - heading "SmartHire Referral Portal" [level=4] [ref=e77]
+    - paragraph [ref=e7]: Know someone great? Refer them to join our team. Fill in the form below.
+  - generic [ref=e11]:
+    - heading "Refer a Candidate" [level=5] [ref=e78]
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e46]: Candidate Name
+        - generic [ref=e16]:
+          - textbox "Candidate Name" [ref=e79]: Referral Demo 82019
+          - group:
+            - generic: Candidate Name
+      - generic [ref=e18]:
+        - generic [ref=e47]: Email
+        - generic [ref=e19]:
+          - textbox "Email" [ref=e80]: ref.demo.82019@example.com
+          - group:
+            - generic: Email
+      - generic [ref=e21]:
+        - generic [ref=e48]: Phone
+        - generic [ref=e22]:
+          - textbox "Phone" [ref=e81]: "9876543210"
+          - group:
+            - generic: Phone
+      - generic [ref=e24]:
+        - generic [ref=e58]: Technology
+        - generic [ref=e25]:
+          - combobox "Java" [active] [ref=e82] [cursor=pointer]
+          - textbox: "1"
+          - img
+          - group:
+            - generic: Technology
+      - generic [ref=e27]:
+        - generic: Notice Period
+        - generic [ref=e28]:
+          - combobox [ref=e29] [cursor=pointer]
+          - textbox
+          - img
+          - group:
+            - generic: Notice Period
+      - generic [ref=e30]:
+        - generic: Location
+        - generic [ref=e31]:
+          - combobox [ref=e32] [cursor=pointer]
+          - textbox
+          - img
+          - group:
+            - generic: Location
+      - generic [ref=e33]:
+        - generic [ref=e49]: Experience (years)
+        - generic [ref=e34]:
+          - spinbutton "Experience (years)" [ref=e83]: "5"
+          - group:
+            - generic: Experience (years)
+      - generic [ref=e36]:
+        - generic [ref=e50]: Current Company
+        - generic [ref=e37]:
+          - textbox "Current Company" [ref=e84]: Capgemini Partner Org
+          - group:
+            - generic: Current Company
+      - generic [ref=e39]:
+        - generic [ref=e51]: Current CTC (LPA)
+        - generic [ref=e40]:
+          - spinbutton "Current CTC (LPA)" [ref=e85]: "12"
+          - group:
+            - generic: Current CTC (LPA)
+      - generic [ref=e42]:
+        - generic [ref=e52]: Expected CTC (LPA)
+        - generic [ref=e43]:
+          - spinbutton "Expected CTC (LPA)" [ref=e86]: "15"
+          - group:
+            - generic: Expected CTC (LPA)
+      - button "Submit Referral" [ref=e87] [cursor=pointer]: Submit Referral
