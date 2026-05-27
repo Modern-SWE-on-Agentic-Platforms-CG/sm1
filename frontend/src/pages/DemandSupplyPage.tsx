@@ -73,13 +73,13 @@ export default function DemandSupplyPage() {
           </TableHead>
           <TableBody>
             {demand.items.map((d: any) => (
-              <TableRow key={d.demand_id}>
-                <TableCell>{d.role_name}</TableCell>
+              <TableRow key={d.demand_id ?? d.id}>
+                <TableCell>{d.role_name ?? d.jr_id ?? '—'}</TableCell>
                 <TableCell>{d.bu ?? '—'}</TableCell>
                 <TableCell>{d.account ?? '—'}</TableCell>
-                <TableCell>{d.technology ?? '—'}</TableCell>
-                <TableCell>{d.headcount ?? '—'}</TableCell>
-                <TableCell>{d.target_date ?? '—'}</TableCell>
+                <TableCell>{d.technology ?? d.skill ?? '—'}</TableCell>
+                <TableCell>{d.headcount ?? d.pipeline_count ?? '—'}</TableCell>
+                <TableCell>{d.target_date ?? d.demand_date ?? '—'}</TableCell>
                 <TableCell>
                   {d.priority && <Chip label={d.priority} size="small" color={d.priority === 'High' ? 'error' : d.priority === 'Medium' ? 'warning' : 'default'} />}
                 </TableCell>
@@ -101,10 +101,10 @@ export default function DemandSupplyPage() {
           </TableHead>
           <TableBody>
             {bench.items.map((b: any) => (
-              <TableRow key={b.bench_id}>
+              <TableRow key={b.bench_id ?? b.id}>
                 <TableCell>{b.emp_name}</TableCell>
-                <TableCell>{b.technology ?? '—'}</TableCell>
-                <TableCell>{b.experience_years != null ? `${b.experience_years} yrs` : '—'}</TableCell>
+                <TableCell>{b.technology ?? b.skill ?? '—'}</TableCell>
+                <TableCell>{b.experience_years != null ? `${b.experience_years} yrs` : b.grade ?? '—'}</TableCell>
                 <TableCell>{b.location ?? '—'}</TableCell>
                 <TableCell>{b.bu ?? '—'}</TableCell>
                 <TableCell>{b.available_from ?? '—'}</TableCell>

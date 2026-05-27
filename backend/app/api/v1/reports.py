@@ -37,13 +37,13 @@ def feedback_form_report(
 
 @router.get("/analytics/summary")
 def analytics_summary(bu: str | None = None, db: Session = Depends(get_db),
-                       _: object = Depends(require_role("Admin", "RecruiterLead", "PMO"))):
+                       _: object = Depends(require_role("Admin", "Recruiter", "RecruiterLead", "PMO"))):
     return success_response(analytics_service.get_summary(db, bu))
 
 
 @router.get("/analytics/status-pie")
 def status_pie(bu: str | None = None, db: Session = Depends(get_db),
-               _: object = Depends(require_role("Admin", "RecruiterLead", "PMO"))):
+               _: object = Depends(require_role("Admin", "Recruiter", "RecruiterLead", "PMO"))):
     return success_response(analytics_service.get_status_pie(db, bu))
 
 

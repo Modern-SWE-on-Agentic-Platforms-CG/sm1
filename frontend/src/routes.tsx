@@ -224,7 +224,7 @@ export default function AppRoutes() {
 
       {/* Analytics */}
       <Route path="/dashboard-reports" element={
-        <ProtectedRoute><RoleRoute allowedRoles={['Admin', 'RecruiterLead', 'PMO']}><DashboardReportsPage /></RoleRoute></ProtectedRoute>
+        <ProtectedRoute><RoleRoute allowedRoles={['Admin', 'Recruiter', 'RecruiterLead', 'PMO']}><DashboardReportsPage /></RoleRoute></ProtectedRoute>
       } />
       <Route path="/line-chart" element={
         <ProtectedRoute><RoleRoute allowedRoles={['Admin', 'RecruiterLead', 'PMO']}><LineChartPage /></RoleRoute></ProtectedRoute>
